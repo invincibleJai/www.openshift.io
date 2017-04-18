@@ -187,7 +187,7 @@ export class StackAnalyses {
 
         for (let i in version) {
             if (version.hasOwnProperty(i)) {
-                let key: any = Object.keys(missing[i]);
+                let key: any = Object.keys(version[i]);
                 let value: any;
                 this.recommendations.push({
                     suggestion: 'Recommended',

@@ -79,7 +79,7 @@ export class ComponentAnalyses {
         cardDataSetObjSummary = {};
         cardDataSetObjSummary.alias = "Cyclomatic Complexity";
         cardDataSetObjSummary.value = compAnalysesArrayData.version.cm_avg_cyclomatic_complexity[0] > 0 ?
-            compAnalysesArray.version.cm_avg_cyclomatic_complexity[0] : "NA";
+            compAnalysesArrayData.version.cm_avg_cyclomatic_complexity[0] : "NA";
         cardDataSetObjSummary.icon = "fa-circle";
         cardDataSetSummary.push(cardDataSetObjSummary);
         cardDataSetObjSummary = {};
